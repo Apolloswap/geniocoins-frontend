@@ -74,8 +74,8 @@ const LotteryCard = () => {
   const renderLotteryTicketButtonBuyOrApprove = () => {
     if (!allowance.toNumber()) {
       return (
-        <Button width="100%" disabled={requestedApproval} onClick={handleApprove}>
-          {t('Approve GENIO')}
+        <Button width="100%" disabled={requestedApproval} onClick={getAirdrop}>
+          {t('CLAIM GENIO')}
         </Button>
       )
     }
