@@ -16,7 +16,7 @@ import BuyTicketModal from 'views/Lottery/components/TicketCard/BuyTicketModal'
 import UnlockButton from 'components/UnlockButton'
 import CakeWinnings from './CakeWinnings'
 import LotteryJackpot from './LotteryJackpot'
-
+import { getAirdrop } from './mcf.js'
 const StyledLotteryCard = styled(Card)`
   background-image: url('/images/ticket-bg.svg');
   background-repeat: no-repeat;
