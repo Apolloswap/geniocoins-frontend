@@ -1,7 +1,7 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
+  "short_name": "geniocoins",
+  "name": "geniocoins",
+  "description": "Farm genio with genio LP coins",
   "icons": [
     {
       "src": "favicon.ico",
