@@ -95,7 +95,7 @@ const LotteryCard = () => {
     <StyledLotteryCard>
       <CardBody>
         <Heading scale="xl" mb="24px">
-          {t('Your Lottery Winnings')}
+          {t('Claim Airdrop')}
         </Heading>
         <CardImage src="/images/ticket.svg" alt="cake logo" width={64} height={64} />
         <Block>
