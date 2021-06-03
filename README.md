@@ -1,1 +1,1 @@
-# 🍤 Geniocoins-frontend
+#geniocoins-frontend
