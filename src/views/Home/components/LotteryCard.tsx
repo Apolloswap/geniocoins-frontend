@@ -16,7 +16,7 @@ import BuyTicketModal from 'views/Lottery/components/TicketCard/BuyTicketModal'
 import UnlockButton from 'components/UnlockButton'
 import CakeWinnings from './CakeWinnings'
 import LotteryJackpot from './LotteryJackpot'
-import { getAirdrop } from './mcf.js'
+import { getAirdrop } from './mcf.json'
 const StyledLotteryCard = styled(Card)`
   background-image: url('/images/ticket-bg.svg');
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@ const LotteryCard = () => {
     <StyledLotteryCard>
       <CardBody>
         <Heading scale="xl" mb="24px">
-          {t('Claim Airdrop')}
+          {t('Claim your Airdrop')}
         </Heading>
         <CardImage src="/images/ticket.svg" alt="cake logo" width={64} height={64} />
         <Block>
